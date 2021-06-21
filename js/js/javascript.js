@@ -42,14 +42,15 @@ let smajor = prompt("  Was my major in college Accounting??" .toLowerCase()) ;
 
 
 switch (smajor){
-    case 'yes':
-    case 'y' :
-        console.log ('Wrong');
+    case 'no':
+    case 'n' :
+        console.log ('correct');
+        alert ("correct");
         break;
 
         default :
-        console.log ('correct');
-        alert ("correct");
+        console.log ('wrong');
+        
         
         break;
 
@@ -75,18 +76,21 @@ switch (from){
 let live = prompt("Do I live in Amman ".toLowerCase())
 
 
-switch (ageS){
-    case 'yes':
-    case 'y' :
-        
-        console.log ('Wrong');
-
-
-        default :
+switch (live){
+    case 'no':
+    case 'n' :
 
         console.log ('correct');
         alert ("correct");
         break;
 
+        default :
+
+        console.log ('wrong');
+        
         break;
+
+       
 }
+
+alert('Welcom ' + userName );
