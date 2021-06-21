@@ -1,0 +1,92 @@
+' use strict '
+
+alert("Welcom To Sara Website")
+
+let userName = prompt("  What Is Your Name?");
+
+alert('Welcom ' + userName );
+
+let sName = prompt("  Is My Name Sara?" .toLowerCase()) ;
+
+
+switch (sName){
+    case 'yes':
+    case 'y' :
+        console.log ('correct');
+        alert ("correct");
+        break;
+
+        default :
+        console.log ('Wrong');
+        break;
+
+}
+
+let ageS = prompt("Is My Age Above 20 ".toLowerCase())
+
+
+switch (ageS){
+    case 'yes':
+    case 'y' :
+        console.log ('correct');
+        alert ("correct");
+        break;
+
+        default :
+        console.log ('Wrong');
+        break;
+
+}
+
+let smajor = prompt("  Was my major in college Accounting??" .toLowerCase()) ;
+
+
+switch (smajor){
+    case 'yes':
+    case 'y' :
+        console.log ('Wrong');
+        break;
+
+        default :
+        console.log ('correct');
+        alert ("correct");
+        
+        break;
+
+}
+
+
+let from = prompt("Am i from Jordan".toLowerCase())
+
+
+switch (from){
+    case 'yes':
+    case 'y' :
+        console.log ('correct');
+        alert ("correct");
+        break;
+
+        default :
+        console.log ('Wrong');
+        break;
+
+}
+
+let live = prompt("Do I live in Amman ".toLowerCase())
+
+
+switch (ageS){
+    case 'yes':
+    case 'y' :
+        
+        console.log ('Wrong');
+
+
+        default :
+
+        console.log ('correct');
+        alert ("correct");
+        break;
+
+        break;
+}
