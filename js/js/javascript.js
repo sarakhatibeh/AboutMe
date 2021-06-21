@@ -12,12 +12,12 @@ let sName = prompt("  Is My Name Sara?" .toLowerCase()) ;
 switch (sName){
     case 'yes':
     case 'y' :
-        console.log ('correct');
+        // console.log ('correct');
         alert ("correct");
         break;
 
         default :
-        console.log ('Wrong');
+        // console.log ('Wrong');
         break;
 
 }
@@ -28,12 +28,12 @@ let ageS = prompt("Is My Age Above 20 ".toLowerCase())
 switch (ageS){
     case 'yes':
     case 'y' :
-        console.log ('correct');
+        // console.log ('correct');
         alert ("correct");
         break;
 
         default :
-        console.log ('Wrong');
+        // console.log ('Wrong');
         break;
 
 }
@@ -44,12 +44,12 @@ let smajor = prompt("  Was my major in college Accounting??" .toLowerCase()) ;
 switch (smajor){
     case 'no':
     case 'n' :
-        console.log ('correct');
+        // console.log ('correct');
         alert ("correct");
         break;
 
         default :
-        console.log ('wrong');
+        // console.log ('wrong');
         
         
         break;
@@ -63,12 +63,12 @@ let from = prompt("Am i from Jordan".toLowerCase())
 switch (from){
     case 'yes':
     case 'y' :
-        console.log ('correct');
+        // console.log ('correct');
         alert ("correct");
         break;
 
         default :
-        console.log ('Wrong');
+        // console.log ('Wrong');
         break;
 
 }
@@ -80,13 +80,13 @@ switch (live){
     case 'no':
     case 'n' :
 
-        console.log ('correct');
+        // console.log ('correct');
         alert ("correct");
         break;
 
         default :
 
-        console.log ('wrong');
+        // console.log ('wrong');
         
         break;
 
