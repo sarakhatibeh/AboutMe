@@ -6,7 +6,7 @@ let userName = prompt("  What Is Your Name?");
 
 alert('Welcom ' + userName );
 
-let sName = prompt("  Is My Name Sara?" .toLowerCase()) ;
+let sName = prompt("  Is My Name Sara?" ) .toLowerCase();
 
 
 switch (sName){
@@ -22,7 +22,7 @@ switch (sName){
 
 }
 
-let ageS = prompt("Is My Age Above 20 ".toLowerCase())
+let ageS = prompt("Is My Age Above 20 ").toLowerCase();
 
 
 switch (ageS){
@@ -38,7 +38,7 @@ switch (ageS){
 
 }
 
-let smajor = prompt("  Was my major in college Accounting??" .toLowerCase()) ;
+let smajor = prompt("  Was my major in college Accounting??" ).toLowerCase() ;
 
 
 switch (smajor){
@@ -57,7 +57,7 @@ switch (smajor){
 }
 
 
-let from = prompt("Am i from Jordan".toLowerCase())
+let from = prompt("Am i from Jordan").toLowerCase();
 
 
 switch (from){
@@ -73,7 +73,7 @@ switch (from){
 
 }
 
-let live = prompt("Do I live in Amman ".toLowerCase())
+let live = prompt("Do I live in Amman ").toLowerCase();
 
 
 switch (live){
