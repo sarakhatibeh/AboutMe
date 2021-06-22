@@ -6,6 +6,9 @@ let userName = prompt("  What Is Your Name?");
 
 alert('Welcom ' + userName );
 
+let dgreeQ=0;
+
+
 let sName = prompt("  Is My Name Sara?" ) .toLowerCase();
 
 
@@ -14,6 +17,7 @@ switch (sName){
     case 'y' :
         // console.log ('correct');
         alert ("correct");
+        dgreeQ++; 
         break;
 
         default :
@@ -30,6 +34,8 @@ switch (ageS){
     case 'y' :
         // console.log ('correct');
         alert ("correct");
+        dgreeQ++; 
+
         break;
 
         default :
@@ -46,6 +52,8 @@ switch (smajor){
     case 'n' :
         // console.log ('correct');
         alert ("correct");
+        dgreeQ++; 
+
         break;
 
         default :
@@ -65,6 +73,8 @@ switch (from){
     case 'y' :
         // console.log ('correct');
         alert ("correct");
+        dgreeQ++; 
+
         break;
 
         default :
@@ -82,6 +92,8 @@ switch (live){
 
         // console.log ('correct');
         alert ("correct");
+        dgreeQ++; 
+
         break;
 
         default :
@@ -93,4 +105,48 @@ switch (live){
        
 }
 
-alert('Welcom ' + userName );
+
+let userG1 =Number(prompt('Guess the number in my mined'));
+ 
+for (let i=0; i<3 ;i++){
+
+
+if(userG1===5){
+    alert('correct');
+    dgreeQ++; 
+
+    break;
+}
+else if (userG1 > 5){
+    alert('Too High');
+    userG1 =Number(prompt('Guess the number in my mined'));
+}
+else {
+    alert('TOO Low');
+    userG1 =Number(prompt('Guess the number in my mined'));
+}
+}
+
+
+
+
+let ansQ=['friday', 'satarday', 'thersday'];
+
+let Qans = prompt('What is my favariat days?').toLowerCase();
+
+for(let i=0; i<5;  i++){
+
+if(Qans === ansQ[0] || Qans===ansQ[1] || Qans===[2] ){
+    alert('correct');
+    alert('My favariate days is friday satarday and thersday');
+    dgreeQ++; 
+
+    break;
+}
+else {alert('wrong');}
+Qans = prompt('What is my favariat days?').toLowerCase();
+
+}
+
+alert('Welcom '  + userName  +    '   your grade is   '   + dgreeQ);
+
